@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Almijara de Mar — Restaurante mediterráneo en Huelva. Cocina tradicional española con producto de primera calidad. Reserva tu mesa.">
+  <title>Almijara de Mar — Restaurante Mediterráneo en Huelva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header__container">
+      <a href="#inicio" class="header__logo">
+        <img src="assets/images/logo-primary.png" alt="Almijara de Mar" class="header__logo-img">
+      </a>
+      <nav class="header__nav" id="nav">
+        <ul class="header__nav-list">
+          <li><a href="#esencia" class="header__nav-link">Nuestra esencia</a></li>
+          <li><a href="#recomendaciones" class="header__nav-link">Recomendaciones</a></li>
+          <li><a href="#carta" class="header__nav-link">Carta</a></li>
+          <li><a href="#espacio" class="header__nav-link">El espacio</a></li>
+          <li><a href="#galeria" class="header__nav-link">Galería</a></li>
+        </ul>
+      </nav>
+      <a href="#reserva" class="btn btn--outline header__cta">Reservar</a>
+      <button class="header__burger" id="burger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg">
+      <img src="assets/images/hero.jpg" alt="Almijara de Mar" class="hero__img">
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Huelva · Cocina Mediterránea</p>
+      <h1 class="hero__title reveal reveal--delay-1">
+        Donde el mar<br>
+        <em>se sienta a la mesa</em>
+      </h1>
+      <p class="hero__subtitle reveal reveal--delay-2">
+        Producto de proximidad, técnica honesta<br class="hide-mobile"> y el sabor inconfundible del sur.
+      </p>
+      <div class="hero__actions reveal reveal--delay-3">
+        <a href="#reserva" class="btn btn--primary">Reservar mesa</a>
+        <a href="#carta" class="btn btn--ghost">Ver la carta</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ESENCIA -->
+  <section class="esencia" id="esencia">
+    <div class="esencia__container">
+      <div class="esencia__text reveal">
+        <span class="label">Nuestra esencia</span>
+        <h2 class="esencia__title">
+          Tradición viva.<br>Producto real.
+        </h2>
+        <p class="esencia__body">
+          En Almijara de Mar creemos que la cocina más honesta es la que respeta el origen de cada ingrediente.
+          Trabajamos con pescadores locales, con la lonja de Huelva y con productores de la tierra que comparten
+          nuestra manera de entender el producto.
+        </p>
+        <p class="esencia__body">
+          Nada de artificios. Aquí el protagonista es siempre lo que llega fresco cada mañana: la gamba blanca,
+          el choco, el atún rojo, el vino del Condado. Una cocina que huele a brasa, a mar, a tiempo bien empleado.
+        </p>
+        <div class="esencia__detail">
+          <img src="assets/images/logo-mark.png" alt="" class="esencia__mark" aria-hidden="true">
+          <p class="esencia__quote"><em>"El mar de Huelva tiene un sabor único. Nuestro trabajo es no estropearlo."</em></p>
+        </div>
+      </div>
+      <div class="esencia__image reveal reveal--right">
+        <img src="assets/images/brand-detail.jpg" alt="Detalle de nuestra cocina" class="esencia__img">
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOMENDACIONES -->
+  <section class="recomendaciones" id="recomendaciones">
+    <div class="recomendaciones__container">
+      <div class="recomendaciones__header reveal">
+        <span class="label label--light">De nuestra mano</span>
+        <h2 class="recomendaciones__title">Lo que no puede faltar</h2>
+        <p class="recomendaciones__subtitle">
+          Tres platos que resumen lo que somos: producto, técnica y recuerdo.
+        </p>
+      </div>
+      <div class="recomendaciones__grid">
+        <article class="plato reveal">
+          <div class="plato__image-wrap">
+            <img src="assets/images/signature-dish-1.jpg" alt="Gamba blanca de Huelva a la plancha" class="plato__img">
+          </div>
+          <div class="plato__body">
+            <div class="plato__header">
+              <h3 class="plato__name">Gamba blanca de Huelva a la plancha</h3>
+              <span class="plato__precio">24 €</span>
+            </div>
+            <p class="plato__desc">
+              La reina del Atlántico onubense. Sin adornos, sin distracciones. Solo el producto, el punto exacto y la sal adecuada.
+            </p>
+          </div>
+        </article>
+        <article class="plato reveal reveal--delay-1">
+          <div class="plato__image-wrap">
+            <img src="assets/images/signature-dish-2.jpg" alt="Arroz meloso de choco y langostinos" class="plato__img">
+          </div>
+          <div class="plato__body">
+            <div class="plato__header">
+              <h3 class="plato__name">Arroz meloso de choco y langostinos</h3>
+              <span class="plato__precio">22 €</span>
+            </div>
+            <p class="plato__desc">
+              Un arroz que concentra el sabor del mar en cada grano. Elaborado con fondo casero y el producto de la lonja del día.
+            </p>
+          </div>
+        </article>
+        <article class="plato reveal reveal--delay-2">
+          <div class="plato__image-wrap">
+            <img src="assets/images/signature-dish-3.jpg" alt="Corvina asada sobre crema fina de hinojo" class="plato__img">
+          </div>
+          <div class="plato__body">
+            <div class="plato__header">
+              <h3 class="plato__name">Corvina asada sobre crema fina de hinojo</h3>
+              <span class="plato__precio">25 €</span>
+            </div>
+            <p class="plato__desc">
+              Pescado de primera con una cocción precisa y una crema que enmarca sin robar protagonismo. Elegante y redondo.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARTA -->
+  <section class="carta" id="carta">
+    <div class="carta__container">
+      <div class="carta__header reveal">
+        <span class="label">La carta</span>
+        <h2 class="carta__title">Una selección honesta</h2>
+        <p class="carta__subtitle">Temporada actual · Sujeta a disponibilidad de mercado</p>
+      </div>
+      <div class="carta__grid">
+        <div class="carta__seccion reveal">
+          <h3 class="carta__seccion-title">Entrantes</h3>
+          <ul class="carta__lista">
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Ensaladilla de gambas al ajillo</span>
+                <span class="carta__item-desc">Receta propia, gambas frescas salteadas</span>
+              </div>
+              <span class="carta__item-precio">14 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Anchoas del Cantábrico con pan cristal y tomate</span>
+                <span class="carta__item-desc">Anchoas 00, pan artesano, tomate de temporada</span>
+              </div>
+              <span class="carta__item-precio">18 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Croquetas cremosas de jamón ibérico</span>
+                <span class="carta__item-desc">Bechamel ligera, jamón 100% ibérico de bellota</span>
+              </div>
+              <span class="carta__item-precio">13 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Pulpo braseado con parmentier trufada</span>
+                <span class="carta__item-desc">Pulpo de roca, puré de patata trufado, pimentón de La Vera</span>
+              </div>
+              <span class="carta__item-precio">21 €</span>
+            </li>
+          </ul>
+        </div>
+        <div class="carta__seccion reveal reveal--delay-1">
+          <h3 class="carta__seccion-title">Principales</h3>
+          <ul class="carta__lista">
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Arroz meloso de choco y langostinos</span>
+                <span class="carta__item-desc">Fondo de marisco casero, choco de la bahía</span>
+              </div>
+              <span class="carta__item-precio">22 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Corvina asada sobre crema fina de hinojo</span>
+                <span class="carta__item-desc">Corvina salvaje, hinojo fresco, aceite de oliva virgen extra</span>
+              </div>
+              <span class="carta__item-precio">25 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Atún rojo sellado con verduras mediterráneas</span>
+                <span class="carta__item-desc">Atún de almadraba, escalivada, salsa de soja y jengibre</span>
+              </div>
+              <span class="carta__item-precio">27 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Pluma ibérica con reducción de Pedro Ximénez</span>
+                <span class="carta__item-desc">Cerdo ibérico, reducción de PX de Jerez, patata revolcona</span>
+              </div>
+              <span class="carta__item-precio">23 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Solomillo de vaca madurada con patata confitada</span>
+                <span class="carta__item-desc">Maduración 30 días, patata en aceite de oliva, jugo de carne</span>
+              </div>
+              <span class="carta__item-precio">29 €</span>
+            </li>
+          </ul>
+        </div>
+        <div class="carta__seccion reveal">
+          <h3 class="carta__seccion-title">Postres</h3>
+          <ul class="carta__lista">
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Tarta fina de queso al horno</span>
+                <span class="carta__item-desc">Queso cremoso, base de galleta, coulis de frutos rojos</span>
+              </div>
+              <span class="carta__item-precio">8 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Tocino de cielo con helado de vainilla</span>
+                <span class="carta__item-desc">Receta tradicional gaditana, helado artesano</span>
+              </div>
+              <span class="carta__item-precio">7 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Milhojas crujiente de crema y naranja</span>
+                <span class="carta__item-desc">Hojaldre artesano, crema pastelera, naranja de Sevilla</span>
+              </div>
+              <span class="carta__item-precio">8 €</span>
+            </li>
+          </ul>
+        </div>
+        <div class="carta__seccion reveal reveal--delay-1">
+          <h3 class="carta__seccion-title">Bebidas</h3>
+          <ul class="carta__lista">
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Copa de vino blanco del Condado</span>
+                <span class="carta__item-desc">D.O. Condado de Huelva, uva Zalema</span>
+              </div>
+              <span class="carta__item-precio">4,5 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Copa de Rioja crianza</span>
+                <span class="carta__item-desc">D.O.Ca. Rioja, Tempranillo, 18 meses en barrica</span>
+              </div>
+              <span class="carta__item-precio">5 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Manzanilla fresca</span>
+                <span class="carta__item-desc">D.O. Manzanilla de Sanlúcar de Barrameda</span>
+              </div>
+              <span class="carta__item-precio">4 €</span>
+            </li>
+            <li class="carta__item">
+              <div class="carta__item-info">
+                <span class="carta__item-name">Agua mineral</span>
+                <span class="carta__item-desc">Con o sin gas, 50 cl</span>
+              </div>
+              <span class="carta__item-precio">2,5 €</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="carta__nota reveal">Los precios incluyen IVA. Infórmenos de cualquier alergia o intolerancia alimentaria.</p>
+    </div>
+  </section>
+
+  <!-- EL ESPACIO -->
+  <section class="espacio" id="espacio">
+    <div class="espacio__image-wrap">
+      <img src="assets/images/interior-main.jpg" alt="Interior del restaurante Almijara de Mar" class="espacio__img">
+      <div class="espacio__overlay"></div>
+    </div>
+    <div class="espacio__content reveal">
+      <span class="label label--light">El espacio</span>
+      <h2 class="espacio__title">
+        Un lugar donde el tiempo<br><em>tiene otro ritmo</em>
+      </h2>
+      <p class="espacio__text">
+        Hemos creado un espacio donde la calma es parte del menú. Luz cálida, mesas con distancia,
+        materiales naturales y una atmósfera que invita a quedarse. Porque una buena cena necesita
+        también un buen escenario.
+      </p>
+      <a href="#reserva" class="btn btn--primary">Reservar mesa</a>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="galeria" id="galeria">
+    <div class="galeria__container">
+      <div class="galeria__header reveal">
+        <span class="label">Galería</span>
+        <h2 class="galeria__title">Momentos en imágenes</h2>
+      </div>
+      <div class="galeria__grid">
+        <div class="galeria__item galeria__item--tall reveal">
+          <img src="assets/images/gallery-1.jpg" alt="Almijara de Mar" loading="lazy">
+        </div>
+        <div class="galeria__item reveal reveal--delay-1">
+          <img src="assets/images/gallery-2.jpg" alt="Almijara de Mar" loading="lazy">
+        </div>
+        <div class="galeria__item reveal reveal--delay-2">
+          <img src="assets/images/dessert.jpg" alt="Postres Almijara de Mar" loading="lazy">
+        </div>
+        <div class="galeria__item reveal reveal--delay-1">
+          <img src="assets/images/gallery-3.jpg" alt="Almijara de Mar" loading="lazy">
+        </div>
+        <div class="galeria__item galeria__item--wide reveal">
+          <img src="assets/images/wine-detail.jpg" alt="Selección de vinos" loading="lazy">
+        </div>
+        <div class="galeria__item reveal reveal--delay-2">
+          <img src="assets/images/gallery-4.jpg" alt="Almijara de Mar" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPINIONES -->
+  <section class="opiniones">
+    <div class="opiniones__container">
+      <div class="opiniones__header reveal">
+        <span class="label">Lo que dicen</span>
+        <h2 class="opiniones__title">Quienes ya han venido</h2>
+      </div>
+      <div class="opiniones__grid">
+        <article class="opinion reveal">
+          <div class="opinion__stars">★★★★★</div>
+          <blockquote class="opinion__texto">
+            "Vinimos por nuestro aniversario y fue exactamente lo que buscábamos.
+            El arroz de choco estaba de diez, el servicio sin prisas y la carta de vinos muy bien pensada.
+            Volvemos en cuanto podamos."
+          </blockquote>
+          <footer class="opinion__autor">
+            <span class="opinion__nombre">Carmen R.</span>
+            <span class="opinion__origen">Huelva</span>
+          </footer>
+        </article>
+        <article class="opinion reveal reveal--delay-1">
+          <div class="opinion__stars">★★★★★</div>
+          <blockquote class="opinion__texto">
+            "La gamba blanca es simplemente imbatible. Lo llevan haciendo toda la vida y se nota.
+            Un sitio donde el producto manda y la experiencia está a la altura.
+            Lo recomiendo sin reservas."
+          </blockquote>
+          <footer class="opinion__autor">
+            <span class="opinion__nombre">Javier M.</span>
+            <span class="opinion__origen">Sevilla</span>
+          </footer>
+        </article>
+        <article class="opinion reveal reveal--delay-2">
+          <div class="opinion__stars">★★★★★</div>
+          <blockquote class="opinion__texto">
+            "Estuve por trabajo en Huelva y no me arrepiento nada de haber elegido Almijara.
+            La corvina y el tocino de cielo me dejaron con ganas de repetir.
+            De los mejores restaurantes que conozco en el sur."
+          </blockquote>
+          <footer class="opinion__autor">
+            <span class="opinion__nombre">Marta L.</span>
+            <span class="opinion__origen">Madrid</span>
+          </footer>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVA -->
+  <section class="reserva" id="reserva">
+    <div class="reserva__bg">
+      <img src="assets/images/interior-main.jpg" alt="" aria-hidden="true">
+      <div class="reserva__overlay"></div>
+    </div>
+    <div class="reserva__container">
+      <div class="reserva__content reveal">
+        <span class="label label--light">Reservas</span>
+        <h2 class="reserva__title">Su mesa le espera</h2>
+        <p class="reserva__subtitle">
+          Para garantizar la mejor atención, recomendamos reservar con antelación.<br>
+          Llámenos o escríbanos directamente.
+        </p>
+        <div class="reserva__datos">
+          <div class="reserva__dato">
+            <span class="reserva__dato-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </span>
+            <div>
+              <span class="reserva__dato-label">Teléfono</span>
+              <a href="tel:+34959245118" class="reserva__dato-valor">+34 959 245 118</a>
+            </div>
+          </div>
+          <div class="reserva__dato">
+            <span class="reserva__dato-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <div>
+              <span class="reserva__dato-label">Email</span>
+              <a href="mailto:reservas@almijarademar.es" class="reserva__dato-valor">reservas@almijarademar.es</a>
+            </div>
+          </div>
+          <div class="reserva__dato">
+            <span class="reserva__dato-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div>
+              <span class="reserva__dato-label">Dirección</span>
+              <span class="reserva__dato-valor">Calle Puerto Viejo, 18, Huelva</span>
+            </div>
+          </div>
+          <div class="reserva__dato">
+            <span class="reserva__dato-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </span>
+            <div>
+              <span class="reserva__dato-label">Horario</span>
+              <span class="reserva__dato-valor">
+                Mar–Dom: 13:30–16:00<br>
+                Mar–Sáb: 20:30–23:30<br>
+                Lunes cerrado
+              </span>
+            </div>
+          </div>
+        </div>
+        <a href="tel:+34959245118" class="btn btn--primary btn--lg">Llamar para reservar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="assets/images/logo-primary.png" alt="Almijara de Mar" class="footer__logo">
+          <p class="footer__tagline">Cocina mediterránea con raíces onubenses</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Contacto</h4>
+          <ul class="footer__list">
+            <li><a href="tel:+34959245118">+34 959 245 118</a></li>
+            <li><a href="mailto:reservas@almijarademar.es">reservas@almijarademar.es</a></li>
+            <li>Calle Puerto Viejo, 18<br>Huelva, España</li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Horario</h4>
+          <ul class="footer__list">
+            <li>Mar–Dom: 13:30–16:00</li>
+            <li>Mar–Sáb: 20:30–23:30</li>
+            <li class="footer__cerrado">Lunes: cerrado</li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Legal</h4>
+          <ul class="footer__list">
+            <li><a href="#">Aviso legal</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Política de cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 Almijara de Mar. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
